@@ -13,28 +13,6 @@ To apply **Zipf’s Law** to real-world text data (song lyrics) and investigate 
 
 ---
 
-## 📁 Repository Structure
-
-📦 Zipf-Law-Analysis-BillieEilish
-├── BillieEilish.csv                # Dataset of Billie Eilish’s song lyrics
-├── Zipfs_Law_BillieEilish.ipynb    # Main Colab notebook:
-│   ├── Text preprocessing
-│   ├── Zipf's Law implementation
-│   ├── Frequency analysis
-│   └── Visualizations + Insights
-├── presentation/                   # Final slides for project evaluation
-│   └── zipf_law_presentation.pdf
-├── visuals/                        # All visual output files
-│   ├── zipf_plot.png
-│   ├── wordclouds/
-│   │   └── *.png
-│   └── frequency_barcharts/
-│       └── *.png
-└── README.md                       # Project overview, team, tools, insights
-
-
----
-
 ## 📊 What's Zipf’s Law?
 
 Zipf’s Law states that in a naturally occurring dataset of words:
