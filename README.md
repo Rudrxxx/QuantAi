@@ -15,28 +15,22 @@ To apply **Zipf’s Law** to real-world text data (song lyrics) and investigate 
 
 ## 📁 Repository Structure
 
-├── BillieEilish.csv               
-│   └── The dataset containing Billie Eilish’s song lyrics.
-│
-├── Zipfs_Law_BillieEilish.ipynb  
-│   └── The main Google Colab notebook containing:
-│       - Text preprocessing steps
-│       - Zipf’s Law implementation
-│       - Frequency analysis
-│       - Data visualizations
-│       - Final insights and interpretations
-│
-├── presentation/
-│   └── Project slides (PPT/Google Slides PDF) used for evaluation and showcasing results.
-│
-├── visuals/
+📦 Zipf-Law-Analysis-BillieEilish
+├── BillieEilish.csv                # Dataset of Billie Eilish’s song lyrics
+├── Zipfs_Law_BillieEilish.ipynb    # Main Colab notebook:
+│   ├── Text preprocessing
+│   ├── Zipf's Law implementation
+│   ├── Frequency analysis
+│   └── Visualizations + Insights
+├── presentation/                   # Final slides for project evaluation
+│   └── zipf_law_presentation.pdf
+├── visuals/                        # All visual output files
 │   ├── zipf_plot.png
 │   ├── wordclouds/
+│   │   └── *.png
 │   └── frequency_barcharts/
-│       └── All visual outputs like log-log plots, word clouds, and histograms.
-│
-├── README.md
-│   └── Project summary, goals, team contributions, tools used, and key insights.
+│       └── *.png
+└── README.md                       # Project overview, team, tools, insights
 
 
 ---
